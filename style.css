@@ -1,0 +1,89 @@
+body {
+    /* background-color: rgb(51, 2, 104); */
+    background-color: #11013c;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+}
+#btn1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 40px;
+    height: 80px;
+    width: 200px;
+    color: white;
+    /* background-color: #00fc2a; */
+    background-color: #0055ff;
+    border-radius: 25px;
+    border:none;
+    box-shadow:
+    0.3em 0.3em 1em rgba(25, 0, 46, 0.6);
+    text-shadow: 0px 5px 30px black;
+    transition: 0.1s ease-in-out;
+}
+#btn1:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+}
+p:hover{
+    transform: scaleX(1.01) scaleY(1.02);
+}
+#dice:hover{
+    transform: scaleX(1.2) scaleY(1.2);
+    box-shadow: #fffb0e;
+}
+#dice{
+    transition: 0.1s ease-in-out;
+}
+#pb{
+    position: absolute;
+    top:10px;
+    left:40px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+#myself{
+    position: absolute;
+    width: 4000px;
+    height: 630px;
+    top: 0px;
+    left: 500px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+p{
+    padding: 0px;
+    text-shadow: 0px 5px 30px rgb(43, 43, 43);
+    transition: 0.1s ease-in-out;
+}
+#dice{
+    position: absolute;
+    top:280px;
+    left:190px;
+    margin-top: 90px;
+    margin-left: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius:50px;
+    background-color: white;
+}
+.ball{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+#row1{
+    display: flex;
+}
+#row2{
+    display: flex;
+}
+#row3{
+    display: flex;
+}
+#balls{
+    opacity: 100%;
+    color: red;
+}
+#ball1{
+    color: gray;
+}
